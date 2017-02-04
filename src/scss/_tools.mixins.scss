@@ -1,0 +1,15 @@
+@mixin link-styles {
+  a {
+    color: $green;
+    -moz-text-decoration-color: $green;
+    &:hover {
+      color: darken($green, 20%);
+    }
+    &:active {
+      color: $pink;
+    }
+    &:visited {
+      color: darken($green, 20%);
+    }
+  }
+}

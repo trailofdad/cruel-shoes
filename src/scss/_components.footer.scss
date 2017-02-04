@@ -1,0 +1,15 @@
+footer {
+  margin-top: 0 !important;
+  padding-top: 10px;
+  p {
+    font-family: $open-sans;
+    font-weight: $weight-light;
+    color: darken($green, 20%);
+    padding-top: 3px;
+  }
+  .social-links-menu {
+    a {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.home {
+  article {
+    &:nth-child(even) {
+      background-color: $black;
+      h3, h2, p, li, label, address, div  {
+        color: $white !important;
+      }
+    }
+  }
+  .panel-content {
+    .wrap {
+      padding-top: 4em;
+      input[type="submit"] {
+        background-color: $green;
+        &:active {
+          background-color: $pink;
+        }
+        &:hover {
+          background-color: darken($green, 15%);
+        }
+      }
+      @include link-styles;
+    }
+  }
+   #panel2, #panel4 {
+    hr {
+      background-color: $pink;
+    }
+  }
+  #panel1, #panel3 {
+    hr {
+      background-color: $pink;
+    }
+  }
+}

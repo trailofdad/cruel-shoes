@@ -1,0 +1,15 @@
+nav {
+  .menu-item {
+    a {
+      font-family: $open-sans;
+      font-weight: $weight-regular;
+      &:hover {
+        color: $green !important;
+      }
+      &:active {
+        color: $pink !important;
+      }
+    }
+  }
+  
+}

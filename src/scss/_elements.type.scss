@@ -1,0 +1,21 @@
+body {
+  font-family: $open-sans;
+  font-weight: $weight-regular;
+
+  h1, h2, h3, h4, h5 {
+    font-family: $open-sans;
+    font-weight: $weight-heavy;
+  }
+
+  li {
+    font-family: $open-sans;
+    font-weight: $weight-light;
+  }
+
+  .entry-content {
+    span {
+      font-family: $open-sans;
+      font-weight: $weight-regular;
+    }
+  }
+}
