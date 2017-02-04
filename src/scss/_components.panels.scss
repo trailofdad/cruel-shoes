@@ -2,7 +2,7 @@
   article {
     &:nth-child(even) {
       background-color: $black;
-      h3, h2, p, li, label, address, div  {
+      h3, h2, p, li, label, address, div, figcaption  {
         color: $white !important;
       }
     }
