@@ -1,5 +1,3 @@
 article {
-  .entry-content {
-    @include link-styles;
-  }
-} 
+  @include link-styles;
+}

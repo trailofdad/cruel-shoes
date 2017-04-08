@@ -9,7 +9,15 @@ footer {
   }
   .social-links-menu {
     a {
-      margin-bottom: 0;
+      margin-bottom: 1px;
+      background-color: $green !important;
+      border: 1px solid $green;
+      &:hover {
+        background-color: white !important;
+      }
+      &:active {
+        border: 1px solid $pink;
+      }
     }
   }
 }

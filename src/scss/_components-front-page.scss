@@ -8,3 +8,9 @@
   font-weight: $weight-regular;
   color: $pink !important;
 }
+
+.custom-logo-link img, body.home.title-tagline-hidden.has-header-image .custom-logo-link img,
+body.home.title-tagline-hidden.has-header-video .custom-logo-link img {
+    max-width: 7rem;
+    max-height: 7rem;
+}

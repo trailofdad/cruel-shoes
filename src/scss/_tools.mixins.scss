@@ -3,13 +3,13 @@
     color: $green;
     -moz-text-decoration-color: $green;
     &:hover {
-      color: darken($green, 20%);
+      color: darken($green, 10%);
     }
     &:active {
       color: $pink;
     }
     &:visited {
-      color: darken($green, 20%);
+      color: darken($green, 20%) !important;
     }
   }
 }

@@ -1,10 +1,11 @@
-.home {
-  article {
-    &:nth-child(even) {
-      background-color: $black;
-      h3, h2, p, li, label, address, div, figcaption  {
-        color: $white !important;
-      }
+body.home {
+  article.twentyseventeen-panel {
+    background-color: $black;
+    h5, h4, h3, h2, p, li, label, address, div, figcaption  {
+      color: $white !important;
+    }
+    hr {
+      background-color: white;
     }
   }
   .panel-content {
@@ -20,16 +21,6 @@
         }
       }
       @include link-styles;
-    }
-  }
-   #panel2, #panel4 {
-    hr {
-      background-color: $pink;
-    }
-  }
-  #panel1, #panel3 {
-    hr {
-      background-color: $pink;
     }
   }
 }
